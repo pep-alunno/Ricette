@@ -1,0 +1,94 @@
+/*******           GENERAL            ************/
+/* Ha effetto su TUTTI i campi della pagina
+*{
+margin:0;
+} */
+
+head{
+	margin: 0;	
+	border: 12px #000000 solid;
+}
+
+body{
+	font-family: corbel,arial,sans-serif;	
+	margin: 0;
+	/*border: 2px #ff0000 solid;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+/*******           HEADER            ************/
+
+#header {
+	color:white;
+	background-color: #66b5ff;
+	/*padding: 5px ;*/
+}
+
+h1{
+	font-size: 20ptx;
+	font-style: italic;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+	padding: 15px 0 0 0;
+	color: #ffffff;
+}
+
+h2 {
+	/*color:blue;*/
+	color: #ffffff;
+	padding: 5px ;
+	/*border: 5px #33eeff solid;*/
+	/*margin: 5px;*/
+	/*width: 300px;*/
+	margin: 0 ;
+	text-align: center;
+}
+
+
+
+/*******  TITOLO (H2 E LISTA LINK) ************/
+
+
+
+h3 {
+	padding: 15px ;
+	color:blue;
+}
+
+/* .nav è la sintassi per riferirmi alla class NAV (delle liste UL) */
+/* #nav è la sintassi per riferirmi all'ID di un ogegtto */
+#nav{
+	/*text-transform: uppercase;*/
+	background-color: #0080ff;
+	text-align: center;
+	list-style-type: none;
+}
+
+#nav li{
+	display:inline-block;
+	padding: 6px 8px 6px 8px;
+}
+
+/* PSEUDOCLASS ogni voce del menu si colora quando il mouse ci passa sopra*/
+#nav li:hover{
+	background-color: #80bfff;
+}
+
+#nav li a{
+	color:#ffffff;
+}
+
+/*******           CONTENT            ************/
+
+#content {
+	width:600px;
+	margin: 30px auto;
+}
+
+#content h4 {
+	border-bottom: #0080ff solid 3px;
+}
